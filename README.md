@@ -12,6 +12,7 @@ clone the repo to the
 To switch the theme try this in your AppController
 
 class AppController extends Controller {
+
 	public $viewClass = 'Theme';
 
 		....
@@ -22,3 +23,4 @@ class AppController extends Controller {
 		parent::beforeFilter();
 		$this->theme='960-fluid';
 	}
+}
