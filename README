@@ -1,0 +1,9 @@
+# CakePHP 960-fluid
+
+A 960 based theme for CakePHP 2.1
+
+##Installation
+
+
+clone the repo to the 
+ * app/View/Themed/ directory
