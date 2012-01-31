@@ -23,6 +23,9 @@
 		<div class="clear"></div>
 		<div class="grid_16">
 			 <?php // Possible menu here ?>
+                    <?php
+            echo $this->Cakemenu->generate($menuw);
+            ?>
 		</div>
 		
 		<div class="clear" style="height: 10px; width: 100%;"></div>

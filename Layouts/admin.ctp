@@ -25,7 +25,7 @@
 		</div>
 		<div class="clear"></div>
 		<div class="grid_16">
-			 <?php echo $this->element('admin/main_menu'); ?>
+			 <?php echo $this->element('admin/main_menu'); ?>xxxx
 		</div>
 		
 		<div class="clear" style="height: 10px; width: 100%;"></div>
