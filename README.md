@@ -11,7 +11,10 @@ clone the repo to the
 
 To switch the theme try this in your AppController
 
-class AppController extends Controller {
+
+
+
+ class AppController extends Controller {
 
 	public $viewClass = 'Theme';
 
@@ -20,7 +23,10 @@ class AppController extends Controller {
 
 
 	function beforeFilter() {
-		parent::beforeFilter();
-		$this->theme='960-fluid';
+		parent::beforeFilter();		
+		$this->theme='960-fluid';		
+		//special: View/Themed/960-fluid/Layouts/ admin.ctp and default.ctp
+		//if you want to use the special admin layout, try this:
+		$this->layout = 'admin';
 	}
-}
+ } 
